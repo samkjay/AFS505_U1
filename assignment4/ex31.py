@@ -32,4 +32,3 @@ elif door =="2":
         print("Good job!")
     else:
         print("You stumble around and fall on a knife and die. Good job!")
-            

@@ -10,6 +10,7 @@ elif number <= "5":
 else:
     print(f"Your number is {number}")
 
+
 print("Now let's input another number less than 10")
 n_number = input(">")
 print(f"Your number is {n_number}")
