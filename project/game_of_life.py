@@ -5,14 +5,14 @@
     :synopsis: This program would enable to run the "Game of life" with user specified initial conditions and number
     of iteration. The grid size has being defined by the programmer to be 30 x 80.
     reviewer - Natalie Sanchez
-    reviewer grade -
+    reviewer grade - 100
 
 .. moduleauthor:: Sam Jayasinghe (samodyajayasinghe@wsu.edu)
 
 """
 
 
-from sys import argv
+
 
 def count_neighbors(input_array, neighbor_sum, num_row, num_col):
     """This is a function to count 'on' neighbors for each cell in the array,
@@ -177,12 +177,12 @@ def main():
      This function also splits the "coordinates " given by the user to read the initially input column and row numbers separately.
      The input_array, neighbor_sum array are defined as 2D lists(array)
      The number of rows and columns in each of those arrays are defined
-     within this function. 
-
-     :return: returns a 2D list with 'X's and '-'
-     :rtype: a 2D list
+     within this function.
 
     """
+
+    from sys import argv
+
     #a string to count the number of all arguments that is given by the user. a specific number of arguments are not unpacked using argv.
     all_args = len(argv)
     #the script is the first element in argv
